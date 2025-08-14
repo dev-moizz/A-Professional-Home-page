@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+          margin: 0px;
+          padding: 0px;
+          box-sizing: border-box;
+        }
+        header{
+            width: 100vw;
+            height: 100px;
+            background-color: rgb(0, 0, 0);
+        }
+        ul{
+            height: 100px;
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+        }
+        .navbtn{
+            padding: 10px 100px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 900;
+            color: cyan;
+            border-radius: 10px;
+            border: 1px solid cadetblue;
+            background-color: black;
+            box-shadow: 2px 2px 1px cyan;
+        }
+        .navbtn:hover{
+            scale: 1.1;
+            color: white;
+        }
+        .mainimg{
+            width: 100vw;
+            height: 700px;
+        }
+        h1{
+            position: absolute;
+            top: 200px;
+            left: 100px;
+            color: aqua;
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 900;
+        }
+        h5{
+            position: absolute;
+            top: 300px;
+            left: 100px;
+            right: 900px;
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background: transparent;
+            padding: 30px 30px;
+            backdrop-filter: blur(50px);
+            border-radius: 20px;
+            box-shadow: 5px 5px 5px gray;
+        }
+        .btn{
+            position: absolute;
+            top: 700px;
+            left: 650px;
+            padding: 10px 40px;
+            background: transparent;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 900;
+            backdrop-filter: blur(20px);
+            color: aliceblue;
+            border-radius: 5px;
+        }
+        .btn:hover{
+            scale: 1.1;
+            color: rgb(0, 0, 0);
+        }
+        .second{
+           display: flex;
+        }
+        .sc2img{
+            width: 50vw;
+            height: 600px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .sc2pic{
+            width: 600px;
+            height: 450px;
+            border-radius: 50px;
+            border: 3px solid rgb(0, 62, 129);
+        }
+        .sc2content{
+            width: 50vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-right: 50px;
+        }
+        p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+            text-shadow: 1px 1px 1px rgb(106, 106, 106);
+        }
+        .third{
+            background-color: cadetblue;
+            width: 100vw;
+            height: 600px;
+        }
+        h6{
+            text-align: center;
+            padding-top: 50px;
+            font-size: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 900;
+        }
+        h2{
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 60px;
+            font-weight: 900;
+        }
+        .cardsc{
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            display: flex;
+            margin-top: 70px;
+            gap: 30px;
+        }
+        .cardpic{
+            width: 200px;
+            height: 200px;
+        }
+        h3{
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           color: azure;
+        }
+        h4{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+              <li><button class="navbtn">HOME</button></li>
+              <li><button class="navbtn">PROJECTS</button></li>
+              <li><button class="navbtn">ABOUT ME</button></li>
+              <li><button class="navbtn">CONTACT</button></li>
+          </ul>
+        </nav>
+    </header>
+ <main>
+    <section class="first">
+    <img class="mainimg" src="./360_F_457937822_6guyVRMr4cCdCr36zPg7Er7WRaf0FbSn.jpg" alt="">
+    <h1>M-SOFT</h1>
+    <h5>Msoft is a forward-thinking software technology company dedicated to building smart,
+         scalable, and secure digital solutions. We specialize in creating innovative applications,
+          enterprise systems, and cloud-based platforms that help businesses streamline operations,
+           enhance productivity, and achieve sustainable growth. Our approach blends cutting-edge 
+           technology with deep industry expertise, ensuring every solution we
+         deliver is tailored, future-ready, and built to exceed expectations.</h5>
+         <button class="btn">Find more?</button>
+    </section>
+    <section class="second">
+        <div class="sc2img">
+            <img class="sc2pic" src="./Elegant Tiles Wall Logo Mockup.png" alt="">
+        </div>
+        <div class="sc2content">
+        <p>Msoft is a software technology company that transforms complex challenges into elegant,
+             high-performance solutions. Our expertise sp
+            ans custom software development for web, mobile, and desktop
+            ; scalable and secure cloud architecture; enterprise systems
+             including ERP, CRM, and automation tools; and advanced data analytic
+            s that convert raw information into actionable insigh
+            ts. We craft intuitive user experiences through thoughtful UI/U
+            X design, harness the potential of AI and machine learning to drive smarte
+            r decision-making, and ensure every system is fortified wit
+            h strong cybersecurity measures. At Msoft, every project is b
+            uilt with precision, innovation, and a commitment to long-term success.</p>
+        </div>
+    </section>
+    <section class="third">
+        <div class="part1">
+        <h6>SERVICES</h6>
+        <h2>About Us</h2>
+        </div>
+        <div class="card">
+        <div class="cardsc">
+        <img src="./github.png" alt="" class="cardpic">
+        <h3>Best Github Projects</h3>
+        <h4>Experienced in managing and contributing to complex repositories, streamlining workflows with Git, and implementing CI/CD pipelines.</h4>
+        </div>
+        <div class="cardsc">
+        <img src="./xd.png" alt="" class="cardpic">
+        <h3>Our Designes</h3>
+        <h4>user-focused interfaces with a balance of creativity and functionality. Skilled in UI/UX design, and creating visually engaging experiences that align with brand identity.</h4>
+        </div>
+        <div class="cardsc">
+        <img src="./java.png" alt="" class="cardpic">
+        <h3>Expertie in JAVA</h3>
+        <h4>Experienced in managing and contributing to complex repositories, streamlining workflows with Git, and implementing CI/CD pipelines.</h4>
+        </div>
+        <div class="cardsc">
+        <img src="./linkedin.png" alt="" class="cardpic">
+        <h3>A Top Ranked LindIn Portfolio</h3>
+        <h4>Experienced in managing and contributing to complex repositories, streamlining workflows with Git, and implementing CI/CD pipelines.</h4>
+        </div>
+    </div>
+    </section>
+ </main>
+</body>
+</html>
