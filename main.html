@@ -12,8 +12,13 @@
         }
         header{
             width: 100vw;
-            height: 100px;
+            height: 150px;
             background-color: rgb(0, 0, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            z-index: 999;
         }
         ul{
             height: 100px;
@@ -24,45 +29,63 @@
             gap: 50px;
         }
         .navbtn{
-            padding: 10px 100px;
+            padding: 10px 60px;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-weight: 900;
-            color: cyan;
+            color: rgb(6, 69, 118);
             border-radius: 10px;
-            border: 1px solid cadetblue;
+            border: 1px solid rgb(0, 149, 255);
             background-color: black;
-            box-shadow: 2px 2px 1px cyan;
+            box-shadow: 2px 2px 1px rgb(2, 66, 112);
+        }
+        .nav1{
+            height: 100px;
+            width: 40vw;
+            display: flex;
+            justify-content: start;
+            padding-left: 20px;
+        }
+        .nav2{
+            display: flex;
+            gap: 15px;
         }
         .navbtn:hover{
             scale: 1.1;
             color: white;
         }
+        .navimg{
+            width: 180px;
+            height: 110px;
+        }
+        .first{
+            position: static;
+        }
         .mainimg{
             width: 100vw;
-            height: 700px;
+            height: 800px;
         }
         h1{
             position: absolute;
-            top: 200px;
+            top: 300px;
             left: 100px;
-            color: aqua;
+            color: rgb(3, 64, 107);
             font-size: 50px;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-weight: 900;
         }
         h5{
             position: absolute;
-            top: 300px;
-            left: 100px;
-            right: 900px;
+            top: 400px;
+            left: 70px;
+            right: 700px;
             font-size: 20px;
-            color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             background: transparent;
             padding: 30px 30px;
-            backdrop-filter: blur(50px);
             border-radius: 20px;
-            box-shadow: 5px 5px 5px gray;
+            background: transparent;
+            backdrop-filter: blur(100px);
         }
         .btn{
             position: absolute;
@@ -78,14 +101,15 @@
         }
         .btn:hover{
             scale: 1.1;
-            color: rgb(0, 0, 0);
+            color: rgb(255, 0, 0);
         }
         .second{
            display: flex;
+           height: 1000px;
         }
         .sc2img{
             width: 50vw;
-            height: 600px;
+            height: 1000px;
             background-color: rgb(255, 255, 255);
             display: flex;
             justify-content: center;
@@ -95,7 +119,7 @@
             width: 600px;
             height: 450px;
             border-radius: 50px;
-            border: 3px solid rgb(0, 62, 129);
+            box-shadow: 15px 15px 15px black;
         }
         .sc2content{
             width: 50vw;
@@ -110,7 +134,7 @@
             text-shadow: 1px 1px 1px rgb(106, 106, 106);
         }
         .third{
-            background-color: cadetblue;
+            background-color: rgb(39, 127, 194);
             width: 100vw;
             height: 600px;
         }
@@ -140,8 +164,8 @@
             gap: 30px;
         }
         .cardpic{
-            width: 200px;
-            height: 200px;
+            width: 150px;
+            height: 150px;
         }
         h3{
            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -151,22 +175,51 @@
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             text-align: center;
         }
+        .map{
+            width: 100vw;
+        }
+        footer{
+            width: 100vw;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .foottercard{
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .fotimg{
+            width: 100px;
+            height: 100px;
+        }
+        .fotimg:hover{
+        scale: 1.2;
+        }
     </style>
 </head>
 <body>
     <header>
         <nav>
           <ul>
-              <li><button class="navbtn" onclick="alert('Under Construction')">HOME</button></li>
-              <li><button class="navbtn" onclick="alert('Under Construction')">PROJECTS</button></li>
-              <li><button class="navbtn" onclick="alert('Under Construction')">ABOUT ME</button></li>
-              <li><button class="navbtn" onclick="alert('Under Construction')">CONTACT</button></li>
+            <div class="nav1">
+              <li><img src="./Asset 76.png" alt="" class="navimg"></li>
+            </div>
+            <div class="nav2">
+              <li><button class="navbtn" onclick="alert('under construction')">HOME</button></li>
+              <li><button class="navbtn" onclick="alert('under construction')">PROJECTS</button></li>
+              <li><button class="navbtn" onclick="alert('under construction')">ABOUT ME</button></li>
+              <li><button class="navbtn" onclick="alert('under construction')">CONTACT</button></li>
+            </div>
           </ul>
         </nav>
     </header>
  <main>
     <section class="first">
-    <img class="mainimg" src="./360_F_457937822_6guyVRMr4cCdCr36zPg7Er7WRaf0FbSn.jpg" alt="">
+    <img class="mainimg" src="./close-up-code-coding-css.jpg" alt="">
     <h1>M-SOFT</h1>
     <h5>Msoft is a forward-thinking software technology company dedicated to building smart,
          scalable, and secure digital solutions. We specialize in creating innovative applications,
@@ -222,7 +275,27 @@
         </div>
     </div>
     </section>
+    <section class="forth">
+        <iframe  class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462118.02491053584!2d67.15546194999999!3d25.193202399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sKarachi!5e0!3m2!1sen!2s!4v1755240137016!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
  </main>
+ <footer>
+    <div class="foottercard">
+        <img src="./facebook.png" alt="" class="fotimg">
+        <p>Facebook</p>
+    </div>
+    <div class="foottercard">
+        <img src="./instagram.png" alt="" class="fotimg">
+        <p>Instagram</p>
+    </div>
+    <div class="foottercard">
+        <img src="./twitter.png" alt="" class="fotimg">
+        <p>Twitter</p>
+    </div>
+    <div class="foottercard">
+        <img src="./youtube.png" alt="" class="fotimg">
+        <p>Youtube</p>
+    </div>
+ </footer>
 </body>
-
 </html>
